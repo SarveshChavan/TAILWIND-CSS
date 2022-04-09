@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Landing Page</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <nav class=" bg-white h-16 w-screen fixed">
+        <div class=" h-10 w-20 my-2 flex ">
+            <img class=" h-12 w-72 px-2" src="icon.png"  alt="">
+            <h1 class=" text-center text-2xl mx-5  px-4 py-1 pl-20 w-20 flex text-blue-400 font-serif">&#60Coders&#62 </h1>
+            <ul class=" flex space-x-10 mx-44 my-2 ">
+                <li class="  w-20 text-center rounded-lg hover:bg-blue-500 hover:text-white hover:cursor-pointer hover:font-bold "><a href="#Home">Home</a></li>
+                <li class=" w-20 text-center rounded-lg hover:bg-blue-500 hover:text-white hover:cursor-pointer hover:font-bold "><a href="#About">About Us</a></li>
+                <li class=" w-24 text-center rounded-lg hover:bg-blue-500 hover:text-white hover:cursor-pointer hover:font-bold ">Contact Us</li>
+            <li class=" w-20 text-center rounded-lg hover:bg-blue-500 hover:text-white hover:cursor-pointer hover:font-bold ">Feedback</li> 
+            </ul>
+        </div>
+    </nav>
+    
+    <section id="Home" class=" flex-grow mt-14 -z-10 w-screen h-screen absolute bg-blue-500 bg-opacity-80 ">
+       <div class=" flex">
+
+           <div class="  w-2/3 text-center hover:bg-blue-400 ">
+               <h1 class=" mt-10 text-3xl hover:cursor-pointer hover:text-white "><a href="two.html">
+                   Welcome to &#60CODERS&#62 
+                </a>
+            </h1>    
+            <p class=" text-center text-xl mt-4 "> 
+                CODE with &#60CODERS&#62 so you will be in CODERS.
+            </p>
+            <p class=" mt-24 px-10 py-20">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ducimus in, minus deserunt earum dignissimos, rem dolore nam, nulla magni non ipsam autem commodi? Magnam, obcaecati. Illo beatae quis sunt.
+            </p>
+        </div>
+        <img class="  w-2/6 h-2/5 ml-10 my-8 mr-10 mt-36 " src="sarvesh.gif " alt="">
+    </div> 
+    <div id= "About" class=" bg-slate-300 h-30 pb-20 mt-48">
+        <h1 class="  text-2xl h-10 w-screen text-center self-center py-10 pb-1  ">
+            &copy; TO &#60CODERS&#62
+        </h1>
+        </div>
+    </section>
+</body>
+
+</html>
